@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .calculator {
+    border: 2px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  .display{
+    padding: 40px;
+    align-self: center;
+   
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    padding: 16px;
+    /* border: 2px solid red; */
+  }
+  
+  .numbers {
+    padding: 12px;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
+    /* transition: background-color 0.3s ease; */
+  }
+  
+  .numbers:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Customize specific buttons */
+  .numbers:active {
+    background-color: #ccc;
+  }
+  
+
+  
+  .oper{
+    background-color: #ff9100;
+    color: #fff;
+  }
+  .oper:hover{
+    background-color: #e07e00;
+  }
+  /* Add styling for specific button types */
+  /* .numbers:nth-child(4n) {
+    background-color: #ff8c00;
+    color: #fff;
+  }
+  
+  .numbers:nth-child(4n):hover {
+    background-color: #e07e00;
+  } */
+  
